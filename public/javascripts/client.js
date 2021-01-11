@@ -20,7 +20,7 @@ var moviePages;
 var pageNum = 1;
 
 
-// searchBar.oninput = searchMovies;
+searchBar.oninput = searchMovies;
 window.onbeforeunload = function () {
     localStorage.setItem('nomList', JSON.stringify(nominationsList));
 }

@@ -175,7 +175,7 @@ function searchForPage (){
     if (movieSearch == null) {
         movieSearch = "";
     } else {
-        url = "http://www.omdbapi.com/?apikey=" + APIKey + "&type=movie&page=" + pageNum + "&s=" + movieSearch;
+        url = "https://www.omdbapi.com/?apikey=" + APIKey + "&type=movie&page=" + pageNum + "&s=" + movieSearch;
         search = "Results for \"" + movieSearch + "\"";
         xhttp.open("GET", url, true);
         xhttp.send();

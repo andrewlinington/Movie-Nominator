@@ -51,15 +51,14 @@ a {
   width: 38%;
   position: fixed;
   overflow-x: hidden;
+  height: 50%;
   margin-left: 11%;
-  z-index: 1;
 }
 .right {
   width: 38%;
   overflow-x: hidden;
   position: fixed;
   right: 0;
-  z-index: 1;
   margin-right: 11%;
 }
 a {
@@ -96,6 +95,10 @@ a {
   width: 100%;
   background-color: #acc;
   animation: loader-inner 2s infinite ease-in;
+}
+#scrollable {
+  overflow-y: auto;
+  height: 200px;
 }
 @-moz-keyframes loader {
   0% {

@@ -17,13 +17,13 @@ block content
           img.searchImage(src='images/icon.png')
         input.searchTerm(type='text' placeholder='Search for Movies' id='search')
   .left
-    .card
-      .card-block
+    .card#left-box
       h4.card-title#results Results
-      div#movies
-      .loading#box
-        span.loader
-          span.loader-inner
+      .card-block#scrollable
+        div#movies
+        .loading#box
+          span.loader
+            span.loader-inner
       a#prev(onclick="prevPage()") previous
       a#next(onclick="nextPage()") next
   .right

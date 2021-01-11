@@ -161,7 +161,7 @@ function searchForPage (){
                 moviesSearchList = movies.Search;
                 moviePages = Math.ceil( parseInt(movies.totalResults) /10.0);
                 refreshMovies();
-
+                addPaging()
                 results.innerHTML = search;
                 box.style.visibility = 'hidden';
             } else {
